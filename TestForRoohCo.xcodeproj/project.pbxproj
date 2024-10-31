@@ -1,0 +1,960 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF4098342CD1D8940025A597 /* AppCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0032CCC0E7B005A7D6E /* AppCaption.swift */; };
+		BF4098352CD1D89D0025A597 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0172CCEC971005A7D6E /* Person.swift */; };
+		BF5464022CD12C6900E746F7 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5464012CD12C6900E746F7 /* WatchConnectivity.framework */; };
+		BF59DFF82CD07AE80019CBA2 /* TestForRoohCoWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BF59DFD52CD07AE30019CBA2 /* TestForRoohCoWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFAEAFFE2CD2476100E26E61 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAEAFFD2CD2476000E26E61 /* WatchConnectivity.framework */; };
+		BFBB55012CD2638F00660196 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB55002CD2638F00660196 /* Alert.swift */; };
+		BFC8BFCC2CCBC673005A7D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFCB2CCBC673005A7D6E /* AppDelegate.swift */; };
+		BFC8BFCE2CCBC673005A7D6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFCD2CCBC673005A7D6E /* SceneDelegate.swift */; };
+		BFC8BFD52CCBC676005A7D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC8BFD42CCBC676005A7D6E /* Assets.xcassets */; };
+		BFC8BFD82CCBC676005A7D6E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFC8BFD72CCBC676005A7D6E /* Base */; };
+		BFC8BFE02CCBC6C5005A7D6E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFDF2CCBC6C5005A7D6E /* ProfileViewController.swift */; };
+		BFC8BFE82CCBC710005A7D6E /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFE72CCBC710005A7D6E /* CircleImageView.swift */; };
+		BFC8BFEC2CCBD5A6005A7D6E /* CGFloat+AppUIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFEB2CCBD5A6005A7D6E /* CGFloat+AppUIConstant.swift */; };
+		BFC8BFF12CCBE9B7005A7D6E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFF02CCBE9B7005A7D6E /* AppColor.swift */; };
+		BFC8BFF32CCBEA57005A7D6E /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFF22CCBEA57005A7D6E /* AppImage.swift */; };
+		BFC8BFF82CCBEF4A005A7D6E /* PickerImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFF72CCBEF4A005A7D6E /* PickerImageCollectionViewCell.swift */; };
+		BFC8BFFA2CCBEFAB005A7D6E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFF92CCBEFAB005A7D6E /* UIView+.swift */; };
+		BFC8BFFC2CCBF2CD005A7D6E /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFFB2CCBF2CD005A7D6E /* ImagePickerView.swift */; };
+		BFC8BFFE2CCBFA13005A7D6E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8BFFD2CCBFA13005A7D6E /* ProfileViewModel.swift */; };
+		BFC8C0022CCC07F4005A7D6E /* ProfileVCUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0012CCC07F4005A7D6E /* ProfileVCUIConstants.swift */; };
+		BFC8C0042CCC0E7B005A7D6E /* AppCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0032CCC0E7B005A7D6E /* AppCaption.swift */; };
+		BFC8C0062CCC0EF1005A7D6E /* ImagePickerUIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0052CCC0EF1005A7D6E /* ImagePickerUIConstant.swift */; };
+		BFC8C0082CCC8268005A7D6E /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0072CCC8268005A7D6E /* UIButton+.swift */; };
+		BFC8C00A2CCD44CC005A7D6E /* InfoField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0092CCD44CC005A7D6E /* InfoField.swift */; };
+		BFC8C00C2CCD46D5005A7D6E /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C00B2CCD46D5005A7D6E /* UIStackView+.swift */; };
+		BFC8C00E2CCDBFD8005A7D6E /* InfoFieldUIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C00D2CCDBFD8005A7D6E /* InfoFieldUIConstant.swift */; };
+		BFC8C0122CCDC636005A7D6E /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0112CCDC636005A7D6E /* InformationView.swift */; };
+		BFC8C0142CCDC6CB005A7D6E /* InformationViewUIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0132CCDC6CB005A7D6E /* InformationViewUIConstant.swift */; };
+		BFC8C0182CCEC971005A7D6E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C0172CCEC971005A7D6E /* Person.swift */; };
+		BFC8C01D2CCECB1E005A7D6E /* ButtonTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C01C2CCECB1E005A7D6E /* ButtonTarget.swift */; };
+		BFC8C01F2CCECB41005A7D6E /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8C01E2CCECB41005A7D6E /* Closures.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF59DFE52CD07AE80019CBA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC8BFC02CCBC673005A7D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF59DFD42CD07AE30019CBA2;
+			remoteInfo = "TestForRoohCoWatch Watch App";
+		};
+		BF59DFEF2CD07AE80019CBA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC8BFC02CCBC673005A7D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF59DFD42CD07AE30019CBA2;
+			remoteInfo = "TestForRoohCoWatch Watch App";
+		};
+		BF59DFF62CD07AE80019CBA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC8BFC02CCBC673005A7D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF59DFD42CD07AE30019CBA2;
+			remoteInfo = "TestForRoohCoWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF59DFFC2CD07AE80019CBA2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BF59DFF82CD07AE80019CBA2 /* TestForRoohCoWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF5464012CD12C6900E746F7 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.1.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		BF59DFD52CD07AE30019CBA2 /* TestForRoohCoWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestForRoohCoWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF59DFE42CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestForRoohCoWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF59DFEE2CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestForRoohCoWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAEAFFD2CD2476000E26E61 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		BFBB55002CD2638F00660196 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		BFC8BFC82CCBC673005A7D6E /* TestForRoohCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForRoohCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC8BFCB2CCBC673005A7D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC8BFCD2CCBC673005A7D6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFC8BFD42CCBC676005A7D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC8BFD72CCBC676005A7D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC8BFD92CCBC676005A7D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC8BFDF2CCBC6C5005A7D6E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BFC8BFE72CCBC710005A7D6E /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		BFC8BFEB2CCBD5A6005A7D6E /* CGFloat+AppUIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+AppUIConstant.swift"; sourceTree = "<group>"; };
+		BFC8BFF02CCBE9B7005A7D6E /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		BFC8BFF22CCBEA57005A7D6E /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppImage.swift; path = ../../../../../../Applications/AppImage.swift; sourceTree = "<group>"; };
+		BFC8BFF72CCBEF4A005A7D6E /* PickerImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFC8BFF92CCBEFAB005A7D6E /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		BFC8BFFB2CCBF2CD005A7D6E /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		BFC8BFFD2CCBFA13005A7D6E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		BFC8C0012CCC07F4005A7D6E /* ProfileVCUIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVCUIConstants.swift; sourceTree = "<group>"; };
+		BFC8C0032CCC0E7B005A7D6E /* AppCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCaption.swift; sourceTree = "<group>"; };
+		BFC8C0052CCC0EF1005A7D6E /* ImagePickerUIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerUIConstant.swift; sourceTree = "<group>"; };
+		BFC8C0072CCC8268005A7D6E /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		BFC8C0092CCD44CC005A7D6E /* InfoField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoField.swift; sourceTree = "<group>"; };
+		BFC8C00B2CCD46D5005A7D6E /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		BFC8C00D2CCDBFD8005A7D6E /* InfoFieldUIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoFieldUIConstant.swift; sourceTree = "<group>"; };
+		BFC8C0112CCDC636005A7D6E /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		BFC8C0132CCDC6CB005A7D6E /* InformationViewUIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewUIConstant.swift; sourceTree = "<group>"; };
+		BFC8C0172CCEC971005A7D6E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BFC8C01C2CCECB1E005A7D6E /* ButtonTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTarget.swift; sourceTree = "<group>"; };
+		BFC8C01E2CCECB41005A7D6E /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF5463FD2CD1290300E746F7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				WatchConnector.swift,
+			);
+			target = BFC8BFC72CCBC673005A7D6E /* TestForRoohCo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BF5463FA2CD128F000E746F7 /* Connector */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (BF5463FD2CD1290300E746F7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Connector; sourceTree = "<group>"; };
+		BF59DFD62CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "TestForRoohCoWatch Watch App"; sourceTree = "<group>"; };
+		BF59DFE72CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "TestForRoohCoWatch Watch AppTests"; sourceTree = "<group>"; };
+		BF59DFF12CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "TestForRoohCoWatch Watch AppUITests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF59DFD22CD07AE30019CBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5464022CD12C6900E746F7 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59DFE12CD07AE80019CBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59DFEB2CD07AE80019CBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC8BFC52CCBC673005A7D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAEAFFE2CD2476100E26E61 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5463FE2CD12BF200E746F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFAEAFFD2CD2476000E26E61 /* WatchConnectivity.framework */,
+				BF5464012CD12C6900E746F7 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC8BFBF2CCBC673005A7D6E = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFCA2CCBC673005A7D6E /* TestForRoohCo */,
+				BF59DFD62CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */,
+				BF59DFE72CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests */,
+				BF59DFF12CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests */,
+				BF5463FE2CD12BF200E746F7 /* Frameworks */,
+				BFC8BFC92CCBC673005A7D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC8BFC92CCBC673005A7D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFC82CCBC673005A7D6E /* TestForRoohCo.app */,
+				BF59DFD52CD07AE30019CBA2 /* TestForRoohCoWatch Watch App.app */,
+				BF59DFE42CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests.xctest */,
+				BF59DFEE2CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC8BFCA2CCBC673005A7D6E /* TestForRoohCo */ = {
+			isa = PBXGroup;
+			children = (
+				BF5463FA2CD128F000E746F7 /* Connector */,
+				BFC8C0192CCECAFC005A7D6E /* Utils */,
+				BFC8BFEF2CCBE99C005A7D6E /* AppTheme */,
+				BFC8BFE92CCBD58D005A7D6E /* Helpers */,
+				BFC8BFE12CCBC6CC005A7D6E /* ProfileModule */,
+				BFC8BFED2CCBE565005A7D6E /* SupportingFiles */,
+				BFC8BFEE2CCBE579005A7D6E /* Resources */,
+				BFC8BFD92CCBC676005A7D6E /* Info.plist */,
+			);
+			path = TestForRoohCo;
+			sourceTree = "<group>";
+		};
+		BFC8BFE12CCBC6CC005A7D6E /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8C0002CCC07B7005A7D6E /* UIConstants */,
+				BFC8BFE42CCBC6E1005A7D6E /* Model */,
+				BFC8BFE32CCBC6DD005A7D6E /* View */,
+				BFC8BFE22CCBC6D3005A7D6E /* ViewModel */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		BFC8BFE22CCBC6D3005A7D6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFFD2CCBFA13005A7D6E /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFC8BFE32CCBC6DD005A7D6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFF42CCBEC59005A7D6E /* Cell */,
+				BFC8BFE62CCBC6EF005A7D6E /* CustomViews */,
+				BFC8BFE52CCBC6E7005A7D6E /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFC8BFE42CCBC6E1005A7D6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8C0172CCEC971005A7D6E /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFC8BFE52CCBC6E7005A7D6E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFDF2CCBC6C5005A7D6E /* ProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BFC8BFE62CCBC6EF005A7D6E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFE72CCBC710005A7D6E /* CircleImageView.swift */,
+				BFC8BFFB2CCBF2CD005A7D6E /* ImagePickerView.swift */,
+				BFC8C0092CCD44CC005A7D6E /* InfoField.swift */,
+				BFC8C0112CCDC636005A7D6E /* InformationView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		BFC8BFE92CCBD58D005A7D6E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFEA2CCBD590005A7D6E /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BFC8BFEA2CCBD590005A7D6E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFEB2CCBD5A6005A7D6E /* CGFloat+AppUIConstant.swift */,
+				BFC8BFF92CCBEFAB005A7D6E /* UIView+.swift */,
+				BFC8C0072CCC8268005A7D6E /* UIButton+.swift */,
+				BFC8C00B2CCD46D5005A7D6E /* UIStackView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BFC8BFED2CCBE565005A7D6E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFCB2CCBC673005A7D6E /* AppDelegate.swift */,
+				BFC8BFCD2CCBC673005A7D6E /* SceneDelegate.swift */,
+				BFC8BFD62CCBC676005A7D6E /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BFC8BFEE2CCBE579005A7D6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFD42CCBC676005A7D6E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFC8BFEF2CCBE99C005A7D6E /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFF02CCBE9B7005A7D6E /* AppColor.swift */,
+				BFC8BFF22CCBEA57005A7D6E /* AppImage.swift */,
+				BFC8C0032CCC0E7B005A7D6E /* AppCaption.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		BFC8BFF42CCBEC59005A7D6E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8BFF72CCBEF4A005A7D6E /* PickerImageCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BFC8C0002CCC07B7005A7D6E /* UIConstants */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8C0012CCC07F4005A7D6E /* ProfileVCUIConstants.swift */,
+				BFC8C0052CCC0EF1005A7D6E /* ImagePickerUIConstant.swift */,
+				BFC8C00D2CCDBFD8005A7D6E /* InfoFieldUIConstant.swift */,
+				BFC8C0132CCDC6CB005A7D6E /* InformationViewUIConstant.swift */,
+			);
+			path = UIConstants;
+			sourceTree = "<group>";
+		};
+		BFC8C0192CCECAFC005A7D6E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8C01C2CCECB1E005A7D6E /* ButtonTarget.swift */,
+				BFC8C01E2CCECB41005A7D6E /* Closures.swift */,
+				BFBB55002CD2638F00660196 /* Alert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF59DFD42CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF59DFF92CD07AE80019CBA2 /* Build configuration list for PBXNativeTarget "TestForRoohCoWatch Watch App" */;
+			buildPhases = (
+				BF59DFD12CD07AE30019CBA2 /* Sources */,
+				BF59DFD22CD07AE30019CBA2 /* Frameworks */,
+				BF59DFD32CD07AE30019CBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BF59DFD62CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */,
+			);
+			name = "TestForRoohCoWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TestForRoohCoWatch Watch App";
+			productReference = BF59DFD52CD07AE30019CBA2 /* TestForRoohCoWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF59DFE32CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF59DFFD2CD07AE80019CBA2 /* Build configuration list for PBXNativeTarget "TestForRoohCoWatch Watch AppTests" */;
+			buildPhases = (
+				BF59DFE02CD07AE80019CBA2 /* Sources */,
+				BF59DFE12CD07AE80019CBA2 /* Frameworks */,
+				BF59DFE22CD07AE80019CBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF59DFE62CD07AE80019CBA2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF59DFE72CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests */,
+			);
+			name = "TestForRoohCoWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TestForRoohCoWatch Watch AppTests";
+			productReference = BF59DFE42CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF59DFED2CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF59E0002CD07AE80019CBA2 /* Build configuration list for PBXNativeTarget "TestForRoohCoWatch Watch AppUITests" */;
+			buildPhases = (
+				BF59DFEA2CD07AE80019CBA2 /* Sources */,
+				BF59DFEB2CD07AE80019CBA2 /* Frameworks */,
+				BF59DFEC2CD07AE80019CBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF59DFF02CD07AE80019CBA2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF59DFF12CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests */,
+			);
+			name = "TestForRoohCoWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TestForRoohCoWatch Watch AppUITests";
+			productReference = BF59DFEE2CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BFC8BFC72CCBC673005A7D6E /* TestForRoohCo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC8BFDC2CCBC676005A7D6E /* Build configuration list for PBXNativeTarget "TestForRoohCo" */;
+			buildPhases = (
+				BFC8BFC42CCBC673005A7D6E /* Sources */,
+				BFC8BFC52CCBC673005A7D6E /* Frameworks */,
+				BFC8BFC62CCBC673005A7D6E /* Resources */,
+				BF59DFFC2CD07AE80019CBA2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF59DFF72CD07AE80019CBA2 /* PBXTargetDependency */,
+			);
+			name = TestForRoohCo;
+			productName = TestForRoohCo;
+			productReference = BFC8BFC82CCBC673005A7D6E /* TestForRoohCo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC8BFC02CCBC673005A7D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BF59DFD42CD07AE30019CBA2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					BF59DFE32CD07AE80019CBA2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BF59DFD42CD07AE30019CBA2;
+					};
+					BF59DFED2CD07AE80019CBA2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BF59DFD42CD07AE30019CBA2;
+					};
+					BFC8BFC72CCBC673005A7D6E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = BFC8BFC32CCBC673005A7D6E /* Build configuration list for PBXProject "TestForRoohCo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC8BFBF2CCBC673005A7D6E;
+			productRefGroup = BFC8BFC92CCBC673005A7D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC8BFC72CCBC673005A7D6E /* TestForRoohCo */,
+				BF59DFD42CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */,
+				BF59DFE32CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppTests */,
+				BF59DFED2CD07AE80019CBA2 /* TestForRoohCoWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF59DFD32CD07AE30019CBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59DFE22CD07AE80019CBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59DFEC2CD07AE80019CBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC8BFC62CCBC673005A7D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC8BFD52CCBC676005A7D6E /* Assets.xcassets in Resources */,
+				BFC8BFD82CCBC676005A7D6E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF59DFD12CD07AE30019CBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4098352CD1D89D0025A597 /* Person.swift in Sources */,
+				BF4098342CD1D8940025A597 /* AppCaption.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59DFE02CD07AE80019CBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59DFEA2CD07AE80019CBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC8BFC42CCBC673005A7D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC8BFF32CCBEA57005A7D6E /* AppImage.swift in Sources */,
+				BFC8C0022CCC07F4005A7D6E /* ProfileVCUIConstants.swift in Sources */,
+				BFBB55012CD2638F00660196 /* Alert.swift in Sources */,
+				BFC8C01F2CCECB41005A7D6E /* Closures.swift in Sources */,
+				BFC8C01D2CCECB1E005A7D6E /* ButtonTarget.swift in Sources */,
+				BFC8BFE82CCBC710005A7D6E /* CircleImageView.swift in Sources */,
+				BFC8BFE02CCBC6C5005A7D6E /* ProfileViewController.swift in Sources */,
+				BFC8C0082CCC8268005A7D6E /* UIButton+.swift in Sources */,
+				BFC8BFFA2CCBEFAB005A7D6E /* UIView+.swift in Sources */,
+				BFC8C00E2CCDBFD8005A7D6E /* InfoFieldUIConstant.swift in Sources */,
+				BFC8BFFC2CCBF2CD005A7D6E /* ImagePickerView.swift in Sources */,
+				BFC8BFEC2CCBD5A6005A7D6E /* CGFloat+AppUIConstant.swift in Sources */,
+				BFC8C0062CCC0EF1005A7D6E /* ImagePickerUIConstant.swift in Sources */,
+				BFC8BFCC2CCBC673005A7D6E /* AppDelegate.swift in Sources */,
+				BFC8C00A2CCD44CC005A7D6E /* InfoField.swift in Sources */,
+				BFC8BFFE2CCBFA13005A7D6E /* ProfileViewModel.swift in Sources */,
+				BFC8BFCE2CCBC673005A7D6E /* SceneDelegate.swift in Sources */,
+				BFC8BFF82CCBEF4A005A7D6E /* PickerImageCollectionViewCell.swift in Sources */,
+				BFC8C0142CCDC6CB005A7D6E /* InformationViewUIConstant.swift in Sources */,
+				BFC8BFF12CCBE9B7005A7D6E /* AppColor.swift in Sources */,
+				BFC8C00C2CCD46D5005A7D6E /* UIStackView+.swift in Sources */,
+				BFC8C0182CCEC971005A7D6E /* Person.swift in Sources */,
+				BFC8C0122CCDC636005A7D6E /* InformationView.swift in Sources */,
+				BFC8C0042CCC0E7B005A7D6E /* AppCaption.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF59DFE62CD07AE80019CBA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF59DFD42CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */;
+			targetProxy = BF59DFE52CD07AE80019CBA2 /* PBXContainerItemProxy */;
+		};
+		BF59DFF02CD07AE80019CBA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF59DFD42CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */;
+			targetProxy = BF59DFEF2CD07AE80019CBA2 /* PBXContainerItemProxy */;
+		};
+		BF59DFF72CD07AE80019CBA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF59DFD42CD07AE30019CBA2 /* TestForRoohCoWatch Watch App */;
+			targetProxy = BF59DFF62CD07AE80019CBA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFC8BFD62CCBC676005A7D6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC8BFD72CCBC676005A7D6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF59DFFA2CD07AE80019CBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestForRoohCoWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestForRoohCoWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TestForRoohCoWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.meschya.TestForRoohCo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meschya.TestForRoohCo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		BF59DFFB2CD07AE80019CBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestForRoohCoWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestForRoohCoWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TestForRoohCoWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.meschya.TestForRoohCo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meschya.TestForRoohCo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		BF59DFFE2CD07AE80019CBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meschya.TestForRoohCoWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForRoohCoWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestForRoohCoWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		BF59DFFF2CD07AE80019CBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meschya.TestForRoohCoWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForRoohCoWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestForRoohCoWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		BF59E0012CD07AE80019CBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meschya.TestForRoohCoWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TestForRoohCoWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		BF59E0022CD07AE80019CBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meschya.TestForRoohCoWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TestForRoohCoWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		BFC8BFDA2CCBC676005A7D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC8BFDB2CCBC676005A7D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC8BFDD2CCBC676005A7D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestForRoohCo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meschya.TestForRoohCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC8BFDE2CCBC676005A7D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestForRoohCo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meschya.TestForRoohCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF59DFF92CD07AE80019CBA2 /* Build configuration list for PBXNativeTarget "TestForRoohCoWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59DFFA2CD07AE80019CBA2 /* Debug */,
+				BF59DFFB2CD07AE80019CBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF59DFFD2CD07AE80019CBA2 /* Build configuration list for PBXNativeTarget "TestForRoohCoWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59DFFE2CD07AE80019CBA2 /* Debug */,
+				BF59DFFF2CD07AE80019CBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF59E0002CD07AE80019CBA2 /* Build configuration list for PBXNativeTarget "TestForRoohCoWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59E0012CD07AE80019CBA2 /* Debug */,
+				BF59E0022CD07AE80019CBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC8BFC32CCBC673005A7D6E /* Build configuration list for PBXProject "TestForRoohCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC8BFDA2CCBC676005A7D6E /* Debug */,
+				BFC8BFDB2CCBC676005A7D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC8BFDC2CCBC676005A7D6E /* Build configuration list for PBXNativeTarget "TestForRoohCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC8BFDD2CCBC676005A7D6E /* Debug */,
+				BFC8BFDE2CCBC676005A7D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC8BFC02CCBC673005A7D6E /* Project object */;
+}
